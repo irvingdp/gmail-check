@@ -1,8 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "Gmail 收件者檢查 (Require To)",
+  "name": "__MSG_extName__",
+  "short_name": "__MSG_extShortName__",
   "version": "1.0.0",
-  "description": "在 Gmail 中，收件者 (To) 欄位為空時禁止傳送，即使已填寫副本 / 密件副本。",
+  "description": "__MSG_extDescription__",
+  "default_locale": "en",
   "content_scripts": [
     {
       "matches": [
@@ -31,6 +33,6 @@
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
     },
-    "default_title": "Gmail 收件者檢查"
+    "default_title": "__MSG_actionTitle__"
   }
 }
