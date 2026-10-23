@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "Gmail 收件者檢查 (Require To)"
+  },
+  "extShortName": {
+    "message": "Gmail 收件者檢查"
+  },
+  "extDescription": {
+    "message": "在 Gmail 中，收件者 (To) 欄位為空時禁止傳送，即使已填寫副本 / 密件副本。"
+  },
+  "actionTitle": {
+    "message": "Gmail 收件者檢查"
+  },
+  "blockedMessage": {
+    "message": "收件者欄位是空的，請先填寫收件者再傳送。"
+  }
+}

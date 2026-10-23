@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "Gmail Require To – Block Send Without a To Recipient"
+  },
+  "extShortName": {
+    "message": "Gmail Require To"
+  },
+  "extDescription": {
+    "message": "Blocks sending in Gmail when the To field is empty, even if CC or BCC are filled in."
+  },
+  "actionTitle": {
+    "message": "Gmail Require To"
+  },
+  "blockedMessage": {
+    "message": "The To field is empty. Add a recipient in To before sending."
+  }
+}

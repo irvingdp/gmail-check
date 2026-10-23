@@ -3,7 +3,9 @@
 (() => {
   'use strict';
 
-  const MSG = '收件者欄位是空的，請先填寫收件者再傳送。';
+  const MSG =
+    (typeof chrome !== 'undefined' && chrome.i18n && chrome.i18n.getMessage('blockedMessage')) ||
+    '收件者欄位是空的，請先填寫收件者再傳送。';
   const BLOCKED_CLASS = 'gmrt-blocked';
 
   // Send button: primary blue button (.aoO) or any button whose tooltip

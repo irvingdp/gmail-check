@@ -26,3 +26,7 @@
 ## 備註
 - 判斷方式是找撰寫視窗中 `name="to"` 的欄位與其中的收件者標籤，不依賴中文文字，換語言也能用。
 - 如果 Gmail 改版找不到收件者欄位，擴充功能會「放行」而不是擋住，避免你完全不能寄信。若遇到這情況請回報。
+
+## 上架 Chrome 線上應用程式商店
+- `./build-zip.sh` 產生 `dist/gmail-require-to-<版本>.zip`（不含 icon-options、store 等開發檔）。
+- 商店說明、權限理由、宣傳圖與後台步驟見 `store/LISTING.md`；隱私權政策見 `PRIVACY.md`。
