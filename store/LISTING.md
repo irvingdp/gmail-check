@@ -92,7 +92,7 @@ The extension's content script must run on mail.google.com to inspect the Gmail 
 - 我不會將使用者資料用於與項目單一用途無關的用途…
 - 我不會將使用者資料用於判斷信用度或放款…
 
-**隱私權政策網址**：`https://irvingdp.github.io/gmail-check/privacy.html`（由 `.github/workflows/pages.yml` 把 `site/` 發布到 GitHub Pages）。
+**隱私權政策網址**：`https://irvingdp.github.io/gmail-check/site/privacy.html`（GitHub Pages 從 main 分支根目錄發布）。
 
 ## 5.「發布」分頁
 
