@@ -1,0 +1,20 @@
+.gmrt-blocked {
+  opacity: 0.45 !important;
+  cursor: not-allowed !important;
+  filter: grayscale(1) !important;
+}
+.gmrt-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+  z-index: 2147483647;
+  background: #d93025;
+  color: #fff;
+  font: 500 14px/1.4 "Google Sans", Roboto, "Noto Sans TC", sans-serif;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
